@@ -1,0 +1,15 @@
+[creating a new go project](https://go.dev/doc/code)
+- set up folder
+    - `mkdir hello`
+    - `cd hello`
+- create mod file
+    - `go mod init example/user/hello`
+- write code
+    - `touch hello.go`
+    - `vi hello.go`
+    - `go fmt hello.go`
+- run
+    - `go run hello.go`
+- build and run separately
+    - `go build hello.go`
+    - `./hello`
